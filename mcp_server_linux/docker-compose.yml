@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  network-diagnostic:
+    image: network-diagnostic-mcp:latest
+    container_name: network-diagnostic
+    ports:
+      - "3003:3003"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./logs:/app/logs
+    healthcheck:
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
