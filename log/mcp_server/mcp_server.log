@@ -1,0 +1,262 @@
+2025-10-15 14:07:29 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 14:07:29 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 14:07:29 - mcp_server - INFO - API地址：https://localhost/api/v1，默认组织ID：00000000-0000-0000-0000-000000000002
+2025-10-15 14:17:55 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 14:17:55 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 14:17:55 - mcp_server - INFO - API地址：https://localhost/api/v1，默认组织ID：00000000-0000-0000-0000-000000000002
+2025-10-15 14:27:05 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 14:27:05 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 14:27:05 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：00000000-0000-0000-0000-000000000002
+2025-10-15 14:29:00 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'address': '10.1.11.34', 'is_active': True}, json=None, X-JMS-ORG=00000000-0000-0000-0000-000000000002
+2025-10-15 14:38:37 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'address': '10.1.13.141', 'is_active': True}, json=None, X-JMS-ORG=00000000-0000-0000-0000-000000000002
+2025-10-15 14:54:04 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 14:54:04 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 14:54:04 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：00000000-0000-0000-0000-000000000000
+2025-10-15 14:54:27 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'address': '10.1.13.141', 'is_active': True}, json=None, X-JMS-ORG=00000000-0000-0000-0000-000000000000
+2025-10-15 15:00:17 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:00:17 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:00:17 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:14:22 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:14:22 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:14:22 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:15:56 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'address': '10.1.13.141', 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:16:24 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/nodes/, params={'limit': 20, 'offset': 0, 'full_value': '/王志尚/内部演示'}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:16:53 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'privileged_only', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:17:17 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'ls -l', 'runas': 'root', 'runas_policy': 'privileged_only', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:17:40 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'task -i 0bbee34e-4019-40a4-a87d-8e2faec9ae75', 'runas': 'root', 'runas_policy': 'privileged_only', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:19:05 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'privileged_only', 'instant': True, 'is_periodic': False, 'timeout': 300}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:22:29 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:22:29 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:22:29 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:25:40 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/fc241084-b922-418d-81ec-ed91afc11f5a/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:26:44 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'ping', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 30}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:26:44 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:26:59 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 30}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:26:59 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:27:34 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 30}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:27:34 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:30:14 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:30:15 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:30:29 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'privileged_by_policy', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:30:29 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:32:38 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:32:38 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:32:38 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:32:55 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 30}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:32:56 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:33:39 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:33:53 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:33:53 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:34:18 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:34:19 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:35:40 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:36:12 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'privileged_only', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:36:23 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/8e4398e0-647a-40fb-acc1-1cd0b8f56c9d/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:40:26 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:40:58 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-3cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'always', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:40:58 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:41:10 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'always', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:41:10 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:41:50 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:41:51 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:41:51 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:42:10 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:42:10 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:42:10 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:42:14 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:42:14 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:42:14 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:42:27 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:42:27 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:42:27 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:42:51 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 15:42:51 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 15:42:51 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:43:05 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:43:28 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': '', 'runas_policy': 'become', 'instant': True, 'is_periodic': False, 'timeout': 60}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:43:28 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 15:51:24 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:51:35 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': ['e65e3ed4-a37b-4cf0-aa43-db9c3c6ddbf0'], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 15:52:01 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/9c259290-fb39-4299-b09b-14b5cbb574b5/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:13:51 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 20, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:14:03 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'module': 'shell', 'args': 'pwd', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:14:12 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e066afee-99bf-4df4-8ac7-0cbc6dbbebbe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:30:05 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e066afee-99bf-4df4-8ac7-0cbc6dbbebbe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:30:45 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e066afee-99bf-4df4-8ac7-0cbc6dbbebbe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:31:20 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e066afee-99bf-4df4-8ac7-0cbc6dbbebbe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:31:50 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e066afee-99bf-4df4-8ac7-0cbc6dbbebbe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:32:12 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:32:39 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:33:27 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:34:02 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:34:27 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:34:54 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:35:41 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:37:31 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:38:19 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:40:51 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 16:40:52 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 16:40:52 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:41:24 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['aee30b9e-2f9e-4d95-afbc-0fdce9c9f69e'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:41:24 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 16:42:59 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['e066afee-99bf-4df4-8ac7-0cbc6dbbebbe'], 'nodes': [], 'args': 'ls -l', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:43:00 - mcp_server - ERROR - API请求失败 [POST https://js-internal.fit2cloud.cn/api/v1/ops/jobs/]: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/mcp_server.py", line 138, in send_api_request
+    response.raise_for_status()
+  File "/Users/kaibo/Documents/Code/mcp/mcp_servers/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://js-internal.fit2cloud.cn/api/v1/ops/jobs/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-10-15 16:43:59 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/terminal/sessions/, params={'limit': 10, 'offset': 0, 'order': '-date_start', 'date_from': '2023-01-01T00:00:00Z', 'date_to': '2023-12-31T23:59:59Z', 'is_finished': 1}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:44:49 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 1, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:45:14 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:49:21 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/assets/assets/, params={'limit': 1, 'offset': 0, 'is_active': True}, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 16:49:45 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:33:51 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:34:29 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 18:34:29 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 18:34:29 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:34:32 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 18:34:32 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 18:34:32 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:34:53 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 18:34:53 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 18:34:53 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:37:13 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:37:13 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/147db654-c8d2-410a-958d-2442edd7f280/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:37:16 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/147db654-c8d2-410a-958d-2442edd7f280/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:37:18 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/147db654-c8d2-410a-958d-2442edd7f280/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:38:24 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 18:38:24 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 18:38:24 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:38:38 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:54:45 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/51b3465a-93a0-49df-bc28-ff3c51bd27e5/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:56:47 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:57:44 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/e0cc9453-d541-4d4f-8738-8cdb94a011d7/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:58:37 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 18:58:44 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/ab86d123-8308-4680-ab74-ae12af1a0562/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:29 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:30 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34141d18-5506-422f-844f-64baba549cbd/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:32 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34141d18-5506-422f-844f-64baba549cbd/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:34 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34141d18-5506-422f-844f-64baba549cbd/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:56 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:57 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34a7441f-923a-4390-ac32-cd99f3b40828/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:01:59 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34a7441f-923a-4390-ac32-cd99f3b40828/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:02:01 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/34a7441f-923a-4390-ac32-cd99f3b40828/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:02:15 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 19:02:15 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 19:02:15 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:02:27 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:03:00 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/8a95f292-ea2c-4a2e-9c1b-ebd9f27605ac/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:04:16 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:04:38 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/ca6e9906-bcc8-4edb-9c86-c6704be32974/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:04:56 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:05:29 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/9611166c-6d31-4631-a088-3bdea355e000/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:08:31 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 19:08:31 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 19:08:31 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:08:37 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:08:47 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/6167b661-da39-42da-97d5-cd8c7ec3a187/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:13:30 - mcp_server - INFO - 日志系统初始化完成，路径：./log/mcp_server
+2025-10-15 19:13:30 - mcp_server - INFO - JumpServer MCP Server 启动中...
+2025-10-15 19:13:30 - mcp_server - INFO - API地址：https://js-internal.fit2cloud.cn/api/v1，默认组织ID：413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:13:47 - mcp_server - DEBUG - API请求: method=POST, url=https://js-internal.fit2cloud.cn/api/v1/ops/jobs/, params=None, json={'assets': ['f3c61655-3e16-4f32-976d-a4638b329a99'], 'nodes': [], 'args': 'pwd', 'module': 'shell', 'runas': 'root', 'runas_policy': 'skip', 'instant': True, 'is_periodic': False, 'timeout': -1}, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
+2025-10-15 19:14:00 - mcp_server - DEBUG - API请求: method=GET, url=https://js-internal.fit2cloud.cn/api/v1/ops/job-execution/task-detail/800f3556-626c-40c8-8ea4-435fed59e4fe/, params=None, json=None, X-JMS-ORG=413da40d-b16a-4ee2-b658-10b16c7c87e7
