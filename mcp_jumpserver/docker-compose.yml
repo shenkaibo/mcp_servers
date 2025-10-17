@@ -1,18 +1,15 @@
 version: '3.8'
 
 services:
-  network-diagnostic:
-    image: network-diagnostic-mcp:latest
-    container_name: network-diagnostic
+  mcp-jumpserver:
+    build: .
     ports:
-      - "3003:3003"
-    restart: unless-stopped
+      - "3004:3004"
     environment:
-      - PYTHONUNBUFFERED=1
+      - JUMPSERVER_API_BASE_URL=${JUMPSERVER_API_BASE_URL}
+      - DEFAULT_ORG_ID=${DEFAULT_ORG_ID}
+      - ADMIN_USERNAME=${ADMIN_USERNAME}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
     volumes:
-      - ./logs:/app/logs
-    healthcheck:
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
+      - ./log:/app/log
+    restart: unless-stopped

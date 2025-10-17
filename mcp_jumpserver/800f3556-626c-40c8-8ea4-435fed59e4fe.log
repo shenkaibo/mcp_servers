@@ -1,6 +1,0 @@
-DEBUG: delete inventory: 
- 
-/opt/jumpserver/data/share/ansible/job-585b4e15ba70/20251015_081404_0cbc6dbbebbe/inventory
-10.1.13.141 | CHANGED | rc=0 >>
-/root
-Task ops.tasks.run_ops_job_execution[e066afee-99bf-4df4-8ac7-0cbc6dbbebbe] succeeded in 2.9893431439995766s: None

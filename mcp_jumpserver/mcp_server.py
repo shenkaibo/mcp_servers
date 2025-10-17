@@ -31,7 +31,8 @@ CONFIG = {
     "TASK_TIMEOUT": int(os.getenv("TASK_TIMEOUT", "30")),  # API超时（秒）
     "LOG_DIR": os.getenv("LOG_DIR", "./log/mcp_server"),
     "LOG_MAX_SIZE": int(os.getenv("LOG_MAX_SIZE", "100")),  # 单位：MB
-    "LOG_BACKUP_COUNT": int(os.getenv("LOG_BACKUP_COUNT", "10"))
+    "LOG_BACKUP_COUNT": int(os.getenv("LOG_BACKUP_COUNT", "10")),
+    "TASK_LOG_DIR":os.getenv("LOG_DIR", "/data/jumpserver/core/data/celery")
 }
 
 # ====== 2. 日志配置======
@@ -1751,7 +1752,7 @@ async def execute_job_with_polling(params: ExecuteJobWithPollingParams) -> dict:
                 # 构建日志文件路径
                 first_char = task_id[0]
                 second_char = task_id[1]
-                log_path = f"/Users/kaibo/Documents/Code/mcp/mcp_servers/mcp_jumpserver/{task_id}.log"
+                log_path = os.path.join(CONFIG["TASK_LOG_DIR"], first_char,second_char,f"{task_id}.log")
                 
                 # 读取日志文件内容
                 with open(log_path, 'r', encoding='utf-8') as f:
