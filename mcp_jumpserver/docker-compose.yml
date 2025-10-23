@@ -12,7 +12,7 @@ services:
       - ADMIN_PASSWORD=${ADMIN_PASSWORD}
     volumes:
       - ./log:/app/log
-      - /data/jumpserver/core/data/celery:/data/jumpserver/core/data/celery
+      - ${TASK_LOG_DIR}:${TASK_LOG_DIR}
     env_file:
       - .env  
     restart: unless-stopped
