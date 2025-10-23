@@ -32,7 +32,7 @@ CONFIG = {
     "LOG_DIR": os.getenv("LOG_DIR", "./log/mcp_server"),
     "LOG_MAX_SIZE": int(os.getenv("LOG_MAX_SIZE", "100")),  # 单位：MB
     "LOG_BACKUP_COUNT": int(os.getenv("LOG_BACKUP_COUNT", "10")),
-    "TASK_LOG_DIR":os.getenv("LOG_DIR", "/data/jumpserver/core/data/celery")
+    "TASK_LOG_DIR":os.getenv("TASK_LOG_DIR", "/data/jumpserver/core/data/celery")
 }
 
 # ====== 2. 日志配置======
@@ -1754,6 +1754,9 @@ async def execute_job_with_polling(params: ExecuteJobWithPollingParams) -> dict:
                 second_char = task_id[1]
                 log_path = os.path.join(CONFIG["TASK_LOG_DIR"], first_char,second_char,f"{task_id}.log")
                 
+                await asyncio.sleep(5)
+                print(f"开始读区日志文件: ={log_path}")
+
                 # 读取日志文件内容
                 with open(log_path, 'r', encoding='utf-8') as f:
                     log_content = f.read()
